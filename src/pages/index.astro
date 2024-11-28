@@ -1,0 +1,73 @@
+---
+import Layout from "@/layouts/Layout.astro";
+
+import About from "@/components/sections/About.astro";
+import Education from "@/components/sections/Education.astro";
+import Experience from "@/components/sections/Experience.astro";
+import Hero from "@/components/sections/Hero.astro";
+import Projects from "@/components/sections/Projects.astro";
+import Skills from "@/components/sections/Skills.astro";
+import Tail from "@/components/sections/Tail.astro";
+import ThemeSwitch from "@/components/ThemeSwitch.astro";
+import Achievements from "@/components/sections/Achievements.astro";
+import References from "@/components/sections/References.astro";
+import Interests from "@/components/sections/Interests.astro";
+
+import { basics } from "@cv";
+const { name, label } = basics;
+---
+
+<Layout title={`${name} CV - ${label}`}>
+	<div class="flex justify-end p-4 md:p-8">
+		<div class="flex items-center gap-2 print:hidden">
+			<ThemeSwitch />
+			<a 
+				href="/CV.pdf" 
+				class="bg-skin-button-accent/20 border-skin-hue/20 text-skin-hue hover:bg-skin-hue hover:border-skin-hue hover:text-skin-inverted flex h-[30px] items-center gap-1 rounded-md border border-solid px-2 text-xs transition-colors duration-200"
+				download
+			>
+				<svg 
+					xmlns="http://www.w3.org/2000/svg" 
+					class="size-4" 
+					viewBox="0 0 24 24" 
+					fill="none" 
+					stroke="currentColor" 
+					stroke-width="2"
+				>
+					<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+					<polyline points="7 10 12 15 17 10" />
+					<line x1="12" y1="15" x2="12" y2="3" />
+				</svg>
+				PDF
+			</a>
+		</div>
+	</div>
+
+	<main class="relative grid max-w-7xl gap-12 px-8 pb-8 max-sm:py-8 md:grid-cols-6 md:px-16 md:pb-16 xl:gap-24">
+		<div class="space-y-6 md:col-span-2">
+			<Hero />
+		</div>
+		<div class="space-y-12 md:col-span-4">
+			<About />
+			<Skills />
+			<Experience />
+			<Projects className="print:hidden" />
+			<Education />
+			<Interests />
+			<Achievements />
+			<References />
+		</div>
+	</main>
+
+</Layout>
+
+<style>
+	@page {
+		size: auto;
+		margin: 0mm;
+	}
+	main {
+		margin: auto;
+		width: 100%;
+	}
+</style>

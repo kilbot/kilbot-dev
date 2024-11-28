@@ -1,0 +1,21 @@
+---
+import Section from "../Section.astro";
+
+import { achievements } from "@cv";
+---
+
+<Section title="Key Achievements">
+  <ul class="text-skin-muted [&>li]:ml-4 flex list-disc flex-col gap-2">
+		{achievements.map((achievement) => (
+			<li>
+				<p>{achievement}</p>
+			</li>
+		))}
+	</ul>
+</Section>
+
+<style>
+  li::marker {
+    @apply text-skin-hue
+  }
+</style>

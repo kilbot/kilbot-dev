@@ -1,0 +1,289 @@
+{
+  "basics": {
+    "name": "Paul Kilmurray",
+    "label": "Full Stack Developer",
+    "image": "https://avatars.githubusercontent.com/u/639807?v=4",
+    "email": "paul@kilbot.com",
+    "phone": "+34 651 402 671",
+    "url": "https://kilbot.dev",
+    "summary": "Seasoned software developer and entrepreneur with over 20 years of experience in web development, specialising in e-commerce, custom WordPress/WooCommerce plugins, and point-of-sale (POS) software solutions. Expert in modern web technologies including React, React Native, Node.js, PHP, and REST APIs. Proven track record in delivering innovative, scalable solutions for a diverse client base ranging from startups to established businesses worldwide.",
+    "theme": "default",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Remote",
+      "countryCode": "",
+      "region": "Worldwide"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "kilbot",
+        "url": "https://github.com/kilbot"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "kilbot",
+        "url": "https://linkedin.com/in/kilbot"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Slurp Noodles Ltd",
+      "position": "Software Developer",
+      "location_type": "Remote",
+      "location": "Worldwide",
+      "url": "https://slurpnoodles.co.uk/",
+      "startDate": "2023-05-01",
+      "endDate": null,
+      "summary": [
+        "Customise and maintain an in-house Point-of-Sale (POS) system, ensuring seamless integration with accounting and CRM platforms.",
+        "Optimise system performance and scalability while ensuring compliance with data protection and security standards.",
+        "Provide staff training, technical support, and comprehensive documentation to enhance system usability.",
+        "Develop automated reporting tools to deliver actionable business insights."
+      ]
+    },
+    {
+      "name": "The Kilbot Factory",
+      "position": "Software Developer & Consultant",
+      "location_type": "Remote",
+      "location": "Worldwide",
+      "url": "https://kilbot.com.au",
+      "startDate": "2009-01-01",
+      "endDate": null,
+      "summary": [
+        "Operate as a sole trader, delivering bespoke web development, hosting, and IT solutions to a global clientele under The Kilbot Factory brand.",
+        "Develop and maintain WooCommerce POS, a highly-rated WordPress plugin adopted by thousands of businesses worldwide for streamlined WooCommerce point-of-sale operations.",
+        "Create custom e-commerce solutions, including tailored WordPress/WooCommerce plugins, API integrations, and specialised tools for diverse industries.",
+        "Collaborate with clients to design and deliver scalable, high-performance web applications and workflow optimizations."
+      ],
+      "clients": [
+        {
+          "name": "F Coffee Ltd",
+          "url": "https://fuckoffee.com/",
+          "location": "London, UK",
+          "summary": "Developed custom POS and plugin features for their retail operations."
+        },
+        {
+          "name": "Underdog Film Lab",
+          "url": "https://www.underdogfilmlab.com/",
+          "location": "Oakland, California",
+          "summary": "Built specialised tools for inventory and workflow management."
+        }
+      ]
+    },
+    {
+      "name": "Urban Locavore",
+      "position": "Founder & Product Manager",
+      "location_type": "On-site",
+      "location": "Perth, Western Australia",
+      "url": "https://web.archive.org/web/20130514162004/http://urbanlocavore.com.au/",
+      "startDate": "2011-11-01",
+      "endDate": "2014-02-01",
+      "summary": [
+        "Founded and operated a subscription-based food delivery service, curating high-quality products from Western Australian farmers' markets.",
+        "Designed and maintained the company’s WooCommerce-powered platform, which facilitated seamless ordering and subscription management.",
+        "Created a bespoke POS system to optimize inventory and logistics, later adapted into WooCommerce POS."
+      ]
+    },
+    {
+      "name": "BioCenturion",
+      "position": "Software Developer",
+      "location_type": "Remote",
+      "location": "San Francisco, California",
+      "startDate": "2008-08-01",
+      "endDate": "2009-12-01",
+      "summary": [
+        "Worked with an Australian startup to develop a glucose tracking application for the first-generation iPhone.",
+        "Led front-end and back-end development using cutting-edge tools for mobile health monitoring, though the project was ultimately discontinued."
+      ]
+    },
+    {
+      "name": "The Kilbot Factory",
+      "position": "Freelance Web Developer",
+      "location_type": "On-site",
+      "location": "Melbourne, Victoria",
+      "startDate": "2003-03-01",
+      "endDate": "2008-08-01",
+      "summary": [
+        "Delivered custom websites, hosting solutions, and IT consulting services for businesses across diverse industries."
+      ],
+      "clients": [
+        {
+          "name": "Tim Minchin",
+          "url": "https://timminchin.com/",
+          "location": "Melbourne, Victoria",
+          "summary": "Created and managed digital assets for prominent clients, including Tim Minchin (website and mailing list management)."
+        },
+        {
+          "name": "Huge Object",
+          "url": "https://web.archive.org/web/20071007223927/http://www.hugeobject.com.au/",
+          "location": "Melbourne, Victoria",
+          "summary": "Developed responsive, cross-browser-compatible websites using HTML, CSS, and JavaScript."
+        }
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "University of Western Australia",
+      "url": "https://www.uwa.edu.au/",
+      "area": "Bachelor of Science - Physics major (incomplete)",
+      "studyType": "Bachelor ",
+      "startDate": "1995-01-01",
+      "endDate": "1999-12-31",
+      "score": "",
+      "courses": [
+        
+      ]
+    }
+  ],
+  "certificates": [],
+  "skills": [
+    {
+      "category": "Web & Mobile Development",
+      "items": [
+        {
+          "name": "React",
+          "url": "https://reactjs.org"
+        },
+        {
+          "name": "React Native",
+          "url": "https://reactnative.dev"
+        },
+        {
+          "name": "Expo",
+          "url": "https://expo.dev"
+        },
+        {
+          "name": "Next",
+          "url": "https://nextjs.org"
+        },
+        {
+          "name": "TypeScript",
+          "url": "https://www.typescriptlang.org"
+        },
+        {
+          "name": "JavaScript",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+        },
+        {
+          "name": "HTML",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+        },
+        {
+          "name": "CSS",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+        },
+        {
+          "name": "Tailwind",
+          "url": "https://tailwindcss.com"
+        },
+        {
+          "name": "RxJS",
+          "url": "https://rxjs.dev"
+        }
+      ]
+    },
+    {
+      "category": "Backend & Databases",
+      "items": [
+        {
+          "name": "Node",
+          "url": "https://nodejs.org"
+        },
+        {
+          "name": "PHP",
+          "url": "https://php.net"
+        },
+        {
+          "name": "RxDB",
+          "url": "https://rxdb.info"
+        },
+        {
+          "name": "SQLite",
+          "url": "https://sqlite.org"
+        },
+        {
+          "name": "MySQL",
+          "url": "https://mysql.com"
+        }
+      ]
+    },
+    {
+      "category": "CMS, E-commerce & Tools",
+      "items": [
+        {
+          "name": "WordPress",
+          "url": "https://wordpress.org"
+        },
+        {
+          "name": "WooCommerce",
+          "url": "https://woocommerce.com"
+        },
+        {
+          "name": "Medusa JS",
+          "url": "https://medusajs.com"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com"
+        },
+        {
+          "name": "Docker",
+          "url": "https://docker.com"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Intermediate"
+    }
+  ],
+  "interests": [
+    "Passionate about learning Spanish to enhance communication skills and cultural understanding.",
+    "Enjoy surfing as a way to stay active and connect with nature.",
+    "Deeply interested in blockchain technology, with a focus on exploring innovative payment methods and their potential applications."
+  ],
+  "references": [
+    {
+      "name": "Available on request"
+    }
+  ],
+  "projects": [
+    {
+      "name": "WooCommerce POS",
+      "isActive": true,
+      "description": "Point of Sale application for WooCommerce.",
+      "highlights": [
+        "Cross platform application built with React Native, Nativewind, Expo and RxDB",
+        "7000+ active installs"
+      ],
+      "url": "https://wcpos.com",
+      "github": "https://github.com/wcpos"
+    },
+    {
+      "name": "Medusa POS",
+      "isActive": true,
+      "description": "Point of Sale application for Medusa JS.",
+      "highlights": [
+        "Cross platform application currently in development"
+      ],
+      "url": "https://medusapos.com",
+      "github": "https://github.com/medusapos"
+    }
+  ],
+  "achievements": [
+    "Successfully transitioned from web hosting services to specialized WooCommerce plugin development, carving out a niche in POS solutions.",
+    "Managed long-term relationships with diverse clients, delivering value through tailored solutions and ongoing support.",
+    "Self-taught advanced programming skills, adapting to new technologies and market demands over two decades."
+  ]
+}

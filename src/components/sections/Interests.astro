@@ -1,0 +1,21 @@
+---
+import Section from "../Section.astro";
+
+import { interests } from "@cv";
+---
+
+<Section title="Personal Projects & Interests">
+  <ul class="text-skin-muted [&>li]:ml-4 flex list-disc flex-col gap-2">
+		{interests.map((interest) => (
+			<li>
+				<p>{interest}</p>
+			</li>
+		))}
+	</ul>
+</Section>
+
+<style>
+  li::marker {
+    @apply text-skin-hue
+  }
+</style>
