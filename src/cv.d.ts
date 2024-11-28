@@ -39,14 +39,26 @@ interface Profiles {
   url: string;
 }
 
+// First, let's create interfaces for our work experience data
+interface Client {
+  name: string;
+  url?: string;
+}
+
 interface Work {
   name: string;
   position: string;
+  location_type: string;
+  location: string;
   url: string;
   startDate: DateStr;
   endDate: DateStr | null;
-  summary: string;
-  highlights: Highlight;
+  summary: string | string[];
+  highlights?: Highlight;
+  clients?: Client[];
+  responsibilities?: string[];
+  achievements?: string[];
+  skills?: string[];
 }
 
 type DateStr = `${string}-${string}-${string}`;

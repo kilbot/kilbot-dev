@@ -42,7 +42,11 @@
         "Optimise system performance and scalability while ensuring compliance with data protection and security standards.",
         "Provide staff training, technical support, and comprehensive documentation to enhance system usability.",
         "Develop automated reporting tools to deliver actionable business insights."
-      ]
+      ],
+      "skills": [],
+      "responsibilities": [],
+      "achievements": [],
+      "clients": []
     },
     {
       "name": "The Kilbot Factory",
@@ -58,6 +62,9 @@
         "Create custom e-commerce solutions, including tailored WordPress/WooCommerce plugins, API integrations, and specialised tools for diverse industries.",
         "Collaborate with clients to design and deliver scalable, high-performance web applications and workflow optimizations."
       ],
+      "skills": [],
+      "responsibilities": [],
+      "achievements": [],
       "clients": [
         {
           "name": "F Coffee Ltd",
@@ -83,9 +90,13 @@
       "endDate": "2014-02-01",
       "summary": [
         "Founded and operated a subscription-based food delivery service, curating high-quality products from Western Australian farmers' markets.",
-        "Designed and maintained the company’s WooCommerce-powered platform, which facilitated seamless ordering and subscription management.",
+        "Designed and maintained the company's WooCommerce-powered platform, which facilitated seamless ordering and subscription management.",
         "Created a bespoke POS system to optimize inventory and logistics, later adapted into WooCommerce POS."
-      ]
+      ],
+      "skills": [],
+      "responsibilities": [],
+      "achievements": [],
+      "clients": []
     },
     {
       "name": "BioCenturion",
@@ -97,7 +108,11 @@
       "summary": [
         "Worked with an Australian startup to develop a glucose tracking application for the first-generation iPhone.",
         "Led front-end and back-end development using cutting-edge tools for mobile health monitoring, though the project was ultimately discontinued."
-      ]
+      ],
+      "skills": [],
+      "responsibilities": [],
+      "achievements": [],
+      "clients": []
     },
     {
       "name": "The Kilbot Factory",
@@ -109,6 +124,9 @@
       "summary": [
         "Delivered custom websites, hosting solutions, and IT consulting services for businesses across diverse industries."
       ],
+      "skills": [],
+      "responsibilities": [],
+      "achievements": [],
       "clients": [
         {
           "name": "Tim Minchin",
