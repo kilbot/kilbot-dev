@@ -2,7 +2,7 @@
   "basics": {
     "name": "Paul Kilmurray",
     "label": "Full Stack Developer",
-    "image": "https://avatars.githubusercontent.com/u/639807?v=4",
+    "image": "/paul-kilmurray.jpeg",
     "email": "paul@kilbot.com",
     "phone": "+34 651 402 671",
     "url": "https://kilbot.dev",
@@ -77,6 +77,12 @@
           "url": "https://www.underdogfilmlab.com/",
           "location": "Oakland, California",
           "summary": "Built specialised tools for inventory and workflow management."
+        },
+        {
+          "name": "NattProp Short Stays",
+          "url": "https://www.nattpropshortstays.com/",
+          "location": "UK & Australia",
+          "summary": "Managed hosting and automation to optimise online operations."
         }
       ]
     },
