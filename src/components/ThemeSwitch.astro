@@ -55,5 +55,15 @@ import Moon from "@/icons/moon.astro";
 
 		// Add click listener
 		document.getElementById("themeToggle")?.addEventListener("click", handleToggleClick);
+		
+		window.addEventListener("beforeprint", () => {
+			document.documentElement.classList.remove("dark");
+		});
+
+		window.addEventListener("afterprint", () => {
+			if (select.value === "dark" || (select.value === "system" && systemTheme === "dark")) {
+				document.documentElement.classList.add("dark");
+			}
+		});
 	</script>
 </div>
