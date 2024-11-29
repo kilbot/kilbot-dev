@@ -61,7 +61,8 @@ import Moon from "@/icons/moon.astro";
 		});
 
 		window.addEventListener("afterprint", () => {
-			if (select.value === "dark" || (select.value === "system" && systemTheme === "dark")) {
+			const storedTheme = localStorage.getItem("theme");
+			if (storedTheme === "dark") {
 				document.documentElement.classList.add("dark");
 			}
 		});
